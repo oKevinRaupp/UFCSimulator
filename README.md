@@ -1,4 +1,5 @@
 # UFCSimulator
+
 Aqui estão os principais pilares que definem a experiência do UFC Simulator em JAVA:
 
 -  Não é permitido que a mesma pessoa lute consigo mesma. Ou seja, LutadorA não pode lutar contra LutadorA. 
