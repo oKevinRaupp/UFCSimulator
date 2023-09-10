@@ -5,10 +5,10 @@ public class Main {
 
         Lutador lutador[] = new Lutador[7];
 
-        lutador[0] = new Lutador("Kevin","Brasil",20,1.70f,
+        lutador[0] = new Lutador("Kevin","Brasil",20,1.69f,
                 65f,3,1,1);
-        lutador[1] = new Lutador("Lutador1","França",31,1.75f,
-                68.9f,11,2,1);
+        lutador[1] = new Lutador("Leticia","Gravatai",20,1.65f,
+                55.5f,11,2,1);
         lutador[2] = new Lutador("Lutador2","Jamaica",29,1.68f,
                 57.8f,14,2,3);
         lutador[3] = new Lutador("Lutador3","EUA",35,1.65f,
@@ -22,9 +22,16 @@ public class Main {
         //Você pode mudar os atributos dos lutadores e realizar sua propria luta!
 
         //Exemplo de luta:
-        Luta luta1 = new Luta();
 
+        lutador[0].status();
+        lutador[1].status();
+
+        Luta luta1 = new Luta();
         luta1.marcarLuta(lutador[0],lutador[1]);
         luta1.lutar();
+
+        lutador[0].status();
+        lutador[1].status();
+
     }
 }

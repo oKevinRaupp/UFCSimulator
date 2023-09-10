@@ -44,7 +44,7 @@ public class Luta {
                     this.desafiante.perderLuta();
                     break;
                 case 2:
-                    System.out.println(this.desafiado.getNomeLutador() + " Ganhou a luta! Parabéns");
+                    System.out.println(this.desafiante.getNomeLutador() + " Ganhou a luta! Parabéns");
                     this.desafiante.ganharLuta();
                     this.desafiado.perderLuta();
                     break;
